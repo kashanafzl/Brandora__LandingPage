@@ -1,0 +1,69 @@
+:root {
+  --Primary: #07288B;
+  --Secondary: #009AE0;
+  --textBlack1: #232323;
+  --textBlack2:#3F3F3F;
+  --white: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: NexaLight;
+  src: url('assets/fonts/nexa-light.otf');
+}
+@font-face {
+  font-family: NexaBold;
+  src: url('assets/fonts/nexa-bold.otf');
+}
+@font-face {
+  font-family: GilroyMedium;
+  src: url('assets/fonts/Gilroy-Medium.ttf');
+}
+@font-face {
+  font-family: GilroyRegular;
+  src: url('assets/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: Gallient;
+  src: url('assets/fonts/GallientRegular-eZoMp.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+
+  /* scroll-snap-align: start; */
+}
+
+body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .scroll{
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  width: 100%;
+  height: 100vh;
+}
+
+
+section > div{
+  scroll-snap-align: start;
+  
+} */
+
+/* fade animation good animation */
+
+/* // install Aos fst
+// import React, { useEffect } from 'react'
+// import Aos from "aos";
+// import "aos/dist/aos.css"
+// useEffect(() => {
+//     Aos.init({ duration: 500 })
+// }, [])
+// <div  data-aos="fade-down" className='solsecond__header'> */

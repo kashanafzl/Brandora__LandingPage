@@ -1,0 +1,59 @@
+.experience {
+    text-align: center;
+    height: 100vh;
+    padding: 7rem 0 8.6rem 0;
+}
+
+.frist_exptext,
+.last_exptext {
+    font-family: NexaBold;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-block: 15px;
+    color: var(--textBlack1);
+}
+
+.experience_heading>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 260px;
+    color: var(--Primary);
+    line-height: 300px;
+}
+
+@media(min-width:320px) and (max-width:641px) {
+    .experience {
+        padding: 0rem 0 13rem 0;
+    }
+
+    .frist_exptext,
+    .last_exptext {
+        font-size: 28px;
+        padding-block: 70px;
+        padding-top: 74px;
+        line-height: 64px;
+    }
+    
+
+    .experience_heading>h2 {
+        font-size: 180px;
+        line-height: 140px;
+    }
+}
+
+@media(min-width:641px) and (max-width:961px) {
+    .experience {
+        padding: 0rem 0 13rem 0;
+    }
+
+    .frist_exptext,
+    .last_exptext {
+        font-size: 45px;
+    }
+
+    .experience_heading>h2 {
+        font-size: 210px;
+        line-height: 180px;
+    }
+}

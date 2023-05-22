@@ -1,0 +1,34 @@
+.motivation {
+    position: relative;
+}
+
+.motivation__cursor {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFF;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.motivation__video {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.cursor_icon {
+    font-size: 30px;
+}
+
+@media (min-width:320px) and (max-width:481px) {
+    .motivation {
+        padding-bottom: 0rem;
+    }
+}

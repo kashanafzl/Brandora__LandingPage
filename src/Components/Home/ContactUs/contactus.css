@@ -1,0 +1,187 @@
+.talkjs {
+    background-color: #232323;
+    color: #fff;
+    position: relative;
+    padding-inline: 70px;
+}
+
+.Talktext {
+    font-family: "GilroyMedium";
+    padding-left: 7.5rem;
+    padding-bottom: 8rem;
+}
+
+#inputwidth,
+#inputwidth2 {
+    width: 28rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 1.875rem;
+    background-color: #232323;
+    color: #fff;
+    font-family: "GilroyMedium";
+    /* display: flex; */
+}
+
+#Frominput {
+    width: 14.2815rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 1.875rem;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'LibreBaskerville';
+}
+
+p {
+    padding-top: 9.6rem;
+    padding-bottom: 3.75rem;
+    font-size: 33px;
+    margin: 0;
+}
+
+label {
+    font-size: 40px;
+    line-height: 5rem;
+}
+
+button {
+    border-radius: 50px;
+    padding: 15px 25px;
+    align-items: center;
+}
+
+.Btns-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-size: 13.3px;
+}
+
+.btnlineproperty {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin-left: 1rem;
+    width: 130px;
+    height: 50px;
+    position: relative;
+}
+
+.button label,
+.button input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #4A4A4A;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'GilroySemiBold';
+}
+
+.button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 2;
+}
+
+.button input[type="radio"]:checked+label {
+    background: #07288B;
+}
+
+.button label {
+    z-index: 1;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.letbtn {
+    border-radius: 50px;
+    padding: 15px 25px;
+    color: white;
+    background-color: #009AE0;
+    border: none;
+    font-family: 'GilroySemiBold';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+#btnicon {
+    padding-left: 0.1rem;
+    background-color: #009AE0;
+}
+
+.Butt {
+    position: absolute;
+    right: 12rem;
+}
+
+
+@media (min-width:320px) and (max-width:1025px) {
+    .Talktext {
+        padding: 0 0 1rem 0;
+    }
+
+    #inputwidth {
+        width: 190px;
+        margin-left: 0.8rem;
+    }
+
+    #inputwidth2 {
+        width: 70vw;
+        margin-left: 0.8rem;
+      
+       
+    }
+
+
+
+    #Frominput {
+        width: 240px;
+        margin-left: 0.8rem;
+    }
+
+    label {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .btnlineproperty {
+        display: inline-block;
+    }
+
+    .Butt {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .project_idea {
+        margin-top: 2rem;
+    }
+
+    .button label,
+    .button input {
+        bottom: 5px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1306px) {
+    .Talktext {
+        padding: 0 0 5rem 3rem;
+    }
+
+    .btnlineproperty {
+        display: inline-block;
+    }
+
+}

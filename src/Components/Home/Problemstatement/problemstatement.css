@@ -1,0 +1,128 @@
+.problemstatement , .fristproblemstatement__text{
+    margin-top: 5rem;
+}
+
+.fristproblemstatement__text>h2,
+.secproblemstatement__text>h2 {
+    font-family: NexaBold;
+    color: #3F3F3F;
+    margin-top: 40px;
+ 
+
+}
+
+
+.problemstatement__text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+ 
+    
+}
+
+#heading2{
+
+    font-size: 35px;
+}
+
+.secproblemstatement__text {
+    /* padding-top: 30px; */
+    color: #3F3F3F;
+    /* opacity: 0.1; */
+}
+
+.problemstatement__img>img {
+    width: 500px;
+    height: 400px;
+    margin-top: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.problemstatement__img {
+    position: relative;
+    bottom: 3rem;
+}
+
+
+@media (min-width:320px) and (max-width:641px) {
+    .problemstatement {
+        margin: 10rem 0 15rem 0;
+ 
+    }
+
+    .problemstatement__img {
+        display: none;
+    }
+
+    .problemstatement__text {
+        display: flex;
+        text-align: center;
+        padding: 10px 15px;
+      
+      
+    }
+
+        #heading2{
+            padding: 10px 15px;
+            font-size: 18px;
+       
+        }
+
+    
+}
+
+
+
+@media (min-width:642px) and (max-width:961px) {
+    .fristproblemstatement__text>h2,
+    .secproblemstatement__text>h2 {
+        font-size: 32px;
+    }
+    .problemstatement__img>img {
+        width: 220px;
+        height: 220px;
+    }
+    .problemstatement__text {
+        padding:0 10px 50px 78px;
+    }
+}
+
+@media (min-width:720px) and (max-width:1025px) {
+    .fristproblemstatement__text>h2,
+    .secproblemstatement__text>h2 {
+        font-size: 38px;
+       
+    } 
+    .problemstatement__img>img {
+        width: 250px;
+        height: 250px;
+    }
+    .problemstatement__text {
+        padding:0 80px 50px 88px;
+        
+    }
+}
+
+@media (min-width:1026px) and (max-width:1381px) {
+    .fristproblemstatement__text>h2,
+    .secproblemstatement__text>h2 {
+        font-size: 50px;
+     
+    } 
+    .problemstatement__img>img {
+        width: 270px;
+        height: 270px;
+    }
+    .problemstatement__text {
+        padding:0 100px 50px 108px;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1025px) {
+    .fristproblemstatement__text>h2,
+    .secproblemstatement__text>h2 {
+        font-size: 45px;
+    }  
+}

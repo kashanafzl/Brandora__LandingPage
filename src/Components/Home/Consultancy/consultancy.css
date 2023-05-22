@@ -1,0 +1,125 @@
+.consultancy {
+    padding: 10rem 0px 11.563rem 7.5rem;
+}
+
+.consultancy_heading>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    color: var(--Primary);
+}
+
+.consultancy_text {
+    display: flex;
+    gap: 30px;
+}
+
+.consultancy_text>span {
+    font-family: NexaLight;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.consultancy_text>h3 {
+    font-family: NexaBold;
+    font-size: 80px;
+}
+
+.consultancy_btn>button {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 58px;
+    padding: 20px 50px;
+    background-color: var(--Secondary);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (min-width:320px) and (max-width:971px) {
+    .consultancy {
+        padding: 0rem 0px 13rem 1.8rem;
+    }
+
+    .consultancy_heading>h2 {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .consultancy_text>span {
+        font-size: 30px;
+    }
+
+    .consultancy_text>h3 {
+        font-size: 28px;
+    }
+
+    .consultancy_text {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .consultancy_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .consultancy_btn>button {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width:481px) and (max-width:971px) {
+
+    .consultancy {
+        padding: 0rem 0px 13rem 5rem;
+    }
+
+    .consultancy_heading>h2 {
+        font-size: 70px;
+    }
+
+    .consultancy_text>span {
+        font-size: 40px;
+    }
+
+    .consultancy_text>h3 {
+        font-size: 40px;
+    }
+
+    .consultancy_text {
+        gap: 10px;
+    }
+
+    .consultancy_btn>button {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:641px) and (max-width:971px) {
+    .consultancy {
+        padding: 8rem 0px 13rem 5rem;
+    }
+
+    .consultancy_heading>h2 {
+        font-size: 90px;
+    }
+
+    .consultancy_text>span {
+        font-size: 55px;
+    }
+
+    .consultancy_text>h3 {
+        font-size: 55px;
+    }
+}

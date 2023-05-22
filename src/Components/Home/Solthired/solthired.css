@@ -1,0 +1,55 @@
+.solthired {
+    padding: 7rem 0;
+    text-align: center;
+
+}
+
+.first_solthired,
+.second_solthired,
+.fourth_solthired,
+.fifth_solthired {
+    font-family: NexaLight;
+    font-size: 70px;
+}
+
+.customer_heading>h2 {
+    font-family: NexaBold;
+    font-size: 160px;
+    color: var(--Primary);
+}
+
+@media (min-width:320px) and (max-width:481px) {
+    .solthired {
+        padding: 13rem 0;
+    }
+    
+}
+@media (min-width:320px) and (max-width:961px) {
+    .first_solthired,
+    .second_solthired,
+    .fourth_solthired,
+    .fifth_solthired {
+        font-size: 45px;
+    }
+
+    .customer_heading>h2 {
+        font-size: 68px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+@media (min-width:641px) and (max-width:961px) {
+    .first_solthired,
+    .second_solthired,
+    .fourth_solthired,
+    .fifth_solthired {
+        font-size: 60px;
+    }
+
+    .customer_heading>h2 {
+        font-size: 100px;
+    }
+}
+

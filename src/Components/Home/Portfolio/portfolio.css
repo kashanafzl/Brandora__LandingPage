@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@700&display=swap');
+
+.portfolio {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.portfolio_header {
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.portfolio_header>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 150px;
+    color: var(--Primary);
+}
+
+.portfolio_header>span {
+    font-family: NexaBold;
+    font-size: 25px;
+    line-height: 70px;
+    padding-top: 13px;
+}
+
+.portfolio_menu {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    /* height: 100%;
+    width: 400%;
+    overscroll-behavior: none;
+    flex-wrap: nowrap; */
+}
+
+.portfolio_ {
+    gap: 50px;
+}
+
+.container {
+    overscroll-behavior: none;
+    width: 200%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.portfolio_leftside {
+    background: #003DF4;
+    position: relative;
+}
+
+.portfolio_rightside {
+    background: #FB7161;
+    position: relative;
+}
+
+.portfolio_leftside,
+.portfolio_rightside {
+    padding: 33px 0 0 103px;
+    width: 100%;
+    height: 100vh;
+}
+
+.portfolio_leftside_fristheading {
+    margin-top: 10.5px;
+}
+
+.portfolio_rightside_img>img {
+    width: 130px;
+    height: 40px;
+}
+
+.portfolio_leftside_fristheading>h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 9.9px 0;
+    font-size: 18px;
+    padding: 12.2799px 17.003px;
+
+    background: linear-gradient(106.77deg, #00239D -0.53%, #5178FF 61.58%),
+        linear-gradient(106.77deg, #0029A6 -0.53%, #003366 61.58%, #0040FF 61.58%), #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.portfolio_leftside_secheading,
+.portfolio_leftside_fristheading,
+.portfolio_rightside_fristheading,
+.portfolio_righttside_secheading {
+    background: #FFFFFF;
+    width: fit-content;
+}
+
+.portfolio_leftside_secheading>h3 {
+    font-family: 'Raleway', sans-serif;
+    padding: 12.2799px 17.003px;
+    font-size: 18px;
+    width: fit-content;
+
+    background: linear-gradient(106.77deg, #00239D -0.53%, #5178FF 61.58%),
+        linear-gradient(106.77deg, #0029A6 -0.53%, #003366 61.58%, #0040FF 61.58%), #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio_leftside_image {
+    pointer-events: none;
+    padding: 30px 0 33px 0;
+}
+
+.portfolio_leftside_image>img {
+    width: 550px;
+    height: 238px;
+}
+
+.portfolio_leftside_image>span {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    writing-mode: vertical-rl;
+    padding-bottom: 2rem;
+
+    /* display: block;
+    transform: rotate(90deg); */
+}
+
+.portfolio_rightside_fristheading>h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 9.9px 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12.2799px 17.003px;
+
+    background: linear-gradient(106.77deg, #0058AF -0.53%, #003366 61.58%), #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio_righttside_secheading>h3 {
+    font-family: 'Raleway', sans-serif;
+    padding: 12.2799px 17.003px;
+    font-size: 20px;
+    width: fit-content;
+
+    background: linear-gradient(106.77deg, #0058AF -0.53%, #003366 61.58%), #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fristline {
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    height: 275px;
+    right: 5.5rem;
+    top: 0;
+}
+
+.lastline {
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    height: 40px;
+    right: 5.5rem;
+    bottom: 0;
+}
+
+
+/* .fristline{
+    width: 1px;
+    height: 35px;
+    opacity: 0.7;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 18rem;
+}
+
+.lastline {
+    width: 1px;
+    height: 35px;
+    opacity: 0.7;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 33rem;
+} */

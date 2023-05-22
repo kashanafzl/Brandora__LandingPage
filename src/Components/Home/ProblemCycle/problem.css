@@ -1,0 +1,111 @@
+.Problem {
+    /* position: relative;
+    width: 1006px;
+    height: 100vh;
+    left: 200px;
+    top: 275px; */
+    margin: 15rem 20rem 15rem 14rem;
+ padding-top: 20px;}
+
+.fristStoryQoute>h2,
+.secStoryQoute>h2,
+.thiredStoryQoute>h2 {
+    font-family: NexaBold;
+    font-size: 38px;
+   padding-block: 50px;
+    color: #3F3F3F;
+   
+}
+
+.fristStoryQoute>h2,
+.thiredStoryQoute>h2 {
+    color: #3F3F3F;
+    opacity: 0.1;
+    
+}
+
+/* animation code */
+
+
+.StoryCarousels{
+    position: relative;
+    width:80%;
+    height:430px;
+    margin:50px;
+    margin-left: 0px;
+    overflow:hidden;
+    visibility:hidden;
+    cursor:pointer;
+    
+}
+.singleQuotes{
+  position: absolute;
+  top:0;
+  left:0;
+  width:90%;
+  height: 100px;
+  background: transparent;
+  padding-left:10px;
+  font-family: sans-serif;
+  color:black;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 60px;
+  z-index:1;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:481px) {
+    .Problem {
+        margin: 12rem 1rem 16rem 3.5rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width:482px) and (max-width:641px) {
+    .Problem {
+        margin: 12rem 0rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 642px) and (max-width:1025px) {
+    .Problem {
+        margin: 12rem 0rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+   
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1026px) and (max-width:1281px) {
+    .Problem {
+        margin: 12rem 10rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 55px;
+    }
+     .StoryCarousels{
+        width:80%;
+    }
+}

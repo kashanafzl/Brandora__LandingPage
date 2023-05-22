@@ -1,0 +1,88 @@
+.solsecond {
+    padding: 11rem 0;
+    
+}
+
+.solsecond__header>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: var(--Primary);
+}
+
+.solsecond__header {
+    display: flex;
+    justify-content: center;
+}
+
+.solsecond__text {
+    margin-top: 60px;
+    font-family: NexaLight;
+    text-transform: capitalize;
+    font-size: 70px;
+    padding: 0 20rem 0 25rem;
+}
+
+#solsecond_Fspan {
+    padding: 0 50px;
+}
+
+
+@media (min-width:320px) and (max-width:961px) {
+    .solsecond {
+        padding: 0 0 14rem 1rem;
+    }
+
+    .solsecond__header>h2 {
+        font-size: 22px;
+    }
+
+    .solsecond__text {
+        margin-top: 40px;
+        font-size: 25px;
+        padding: 0;
+        line-height: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width:495px) and (max-width:640px) {
+    .solsecond__header>h2 {
+        font-size: 28px;
+    }
+
+    .solsecond__text {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:641px) and (max-width:961px) {
+    .solsecond__header>h2 {
+        font-size: 38px;
+    }
+
+    .solsecond__text {
+        font-size: 38px;
+        line-height: 3.5rem;
+    }
+}
+
+@media (min-width:961px) and (max-width:1381px) {
+
+    .solsecond__header>h2 {
+        font-size: 62px;
+    }
+
+    .solsecond__text {
+        margin-top: 40px;
+        font-size: 62px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

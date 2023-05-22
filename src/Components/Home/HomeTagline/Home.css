@@ -1,0 +1,209 @@
+.HeroTagline .secTag h1,.forthTag h1 {
+    font-family: NexaBold;
+    font-size: 110px;
+    color: var(--Secondary);
+    top: 106px;
+    position: relative;
+}
+
+.HeroTagline .firstTag h1,.thirdTag h1 {
+    font-weight: 100;
+    font-family: Gallient;
+    font-size: 90px;
+    position: relative;
+    top: 120px;
+}
+
+.HeroTagline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.mainline{
+
+    position: relative;
+}
+
+.LineSvg svg {
+    width: 60%;
+    position: absolute;
+    top: -550px;
+    left: 28%;
+    z-index: -9999;
+    
+}
+.forthTag h1 {
+    color: var(--Primary);
+}
+.firstTag {
+    position: relative;
+    right: 13%;
+    
+}
+.thirdTag,.firstTag,.secTag, .forthTag{
+    height: 100%;
+    overflow: hidden;
+}
+.thirdTag{
+    position: relative;
+    left: 13%;
+}
+
+ul.socialsV {
+    list-style: none;
+    padding: 0px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.socialsV li.sLinkV a svg {
+    font-size: 18px;
+    color: var(--textBlack1);
+    transition: 0.6s ease;
+}
+
+ul.socialsV li.sLinkV a svg:hover {
+    color: var(--Secondary);
+}
+
+.socialHandles {
+    position: fixed;
+    height: 100%;
+    top: 0px;
+}
+
+.socialLinks {
+    position: absolute;
+    top: 50%;
+    padding-left: 60px;
+    transform: translateY(-50%);
+}
+
+
+.floatContactBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 48px;
+}
+
+.letsContact {
+    gap: 8px;
+    display: flex;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.letsContact a {
+    font-family: GilroyMedium;
+    text-decoration: none;
+    background-color: var(--Secondary);
+    grid-gap: 8px;
+    gap: 8px;
+    display: flex;
+    padding: 10px 16px;
+    color: var(--white);
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px;
+    align-items: center;
+}
+
+@media (min-width:320px) and (max-width:961px) {
+    .nav-Content {
+        padding: 39px 34px 0px 34px;
+    }
+
+    .socialLinks {
+        top: 42%;
+    }
+
+    .HeroTagline {
+        padding-top: 170px;
+    }
+
+    .HeroTagline .secTag h1,
+    .forthTag h1 {
+        font-size: 40px;
+    }
+
+    .HeroTagline .firstTag h1,
+    .thirdTag h1 {
+        font-weight: 100;
+        font-size: 48px;
+    }
+
+    .socialHandles {
+        display: none;
+    }
+
+   
+}
+@media (min-width:320px) and (max-width:481px) {
+ .floatContactBtn {
+    bottom: 30px;
+    right: 40px;
+    }
+    .floatContactBtn span{
+        display: none;
+    }
+}
+
+@media (min-width:481px) {
+    .socialHandles {
+        display: inline-block;
+    }
+    .floatContactBtn span{
+        display: initial;
+    }
+
+    .LineSvg svg {
+        width: 65%;
+        position: absolute;
+        top: -500px;
+        left: 28%;
+        z-index: -9999;
+   
+    }
+
+
+}
+
+@media (min-width:961px) and (max-width:1100px) {
+    .HeroTagline {
+        padding-top: 180px;
+    
+    }
+
+    .HeroTagline .secTag h1,
+    .forthTag h1 {
+        font-size: 60px;
+    }
+
+    .HeroTagline .firstTag h1,
+    .thirdTag h1 {
+        font-weight: 100;
+        font-size: 58px;
+    }
+    .LineSvg svg {
+        width: 60%;
+        position: absolute;
+        top: -450px;
+        left: 28%;
+        z-index: -9999;
+   
+    }
+}
+
+@media (max-width:960px) {
+    .LineSvg svg {
+        width: 65%;
+        position: absolute;
+        top: -400px;
+        left: 28%;
+        z-index: -9999;
+
+    }
+}
