@@ -3,16 +3,20 @@
 
     align-items: center;
     display: flex;
-    /* position: fixed;
-    width: 100%; */
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    /* border: 2px solid red; */
+    height: 70px;
+    position: fixed;
+       width: 100%;
   }
 
 
   
   #logoImg img {
     width: 120px;
-    padding-block: 30px;
-    position : fixed;
+    /* position : fixed; */
     padding-left: 68px;
   }
   
@@ -24,7 +28,7 @@
     position: fixed;
     top: 5%;
     right: 5%;
-    height: 0px;
+    height: 20px;
     width: 30px;
     cursor: pointer;
     z-index: 100;
@@ -164,6 +168,7 @@
     text-decoration: none;
     overflow: hidden;
     font-size: 75px;
+    font-family: GilroyMedium;
 
     
   }

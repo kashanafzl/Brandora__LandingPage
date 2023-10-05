@@ -1,6 +1,6 @@
 .experience {
     text-align: center;
-    height: 100vh;
+    /* height: 70vh; */
     padding: 7rem 0 8.6rem 0;
 }
 
@@ -10,7 +10,9 @@
     font-size: 50px;
     text-transform: capitalize;
     padding-block: 15px;
-    color: var(--textBlack1);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textBlack2);
 }
 
 .experience_heading>h2 {

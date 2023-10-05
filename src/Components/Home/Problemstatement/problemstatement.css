@@ -5,15 +5,18 @@
 .fristproblemstatement__text>h2,
 .secproblemstatement__text>h2 {
     font-family: NexaBold;
-    color: #3F3F3F;
+    color:  var(--textBlack2);
     margin-top: 40px;
- 
-
+    line-height: 50px;
+    font-weight: 400;
+    word-spacing: 20px;
+    font-style: normal;
 }
 
 
 .problemstatement__text {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0px 200px;
  
@@ -32,8 +35,8 @@
 }
 
 .problemstatement__img>img {
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    height: 450px;
     margin-top: 120px;
     border-radius: 8px;
     object-fit: cover;
@@ -46,10 +49,7 @@
 
 
 @media (min-width:320px) and (max-width:641px) {
-    .problemstatement {
-        margin: 10rem 0 15rem 0;
- 
-    }
+
 
     .problemstatement__img {
         display: none;
@@ -58,6 +58,7 @@
     .problemstatement__text {
         display: flex;
         text-align: center;
+        justify-content: center;
         padding: 10px 15px;
       
       
@@ -77,8 +78,15 @@
 @media (min-width:642px) and (max-width:961px) {
     .fristproblemstatement__text>h2,
     .secproblemstatement__text>h2 {
-        font-size: 32px;
+        font-size: 27px;
     }
+
+    #heading2{
+        font-size: 23px;
+        line-height: 44px;
+    }
+
+
     .problemstatement__img>img {
         width: 220px;
         height: 220px;
@@ -88,12 +96,20 @@
     }
 }
 
-@media (min-width:720px) and (max-width:1025px) {
+@media (min-width:920px) and (max-width:1025px) {
     .fristproblemstatement__text>h2,
     .secproblemstatement__text>h2 {
         font-size: 38px;
        
     } 
+
+    
+    #heading2{
+        font-size: 20px;
+        line-height: 44px;
+    }
+
+
     .problemstatement__img>img {
         width: 250px;
         height: 250px;
@@ -111,8 +127,9 @@
      
     } 
     .problemstatement__img>img {
-        width: 270px;
-        height: 270px;
+        width: 400px;
+        height: 350px;
+        object-fit: cover;
     }
     .problemstatement__text {
         padding:0 100px 50px 108px;
@@ -125,4 +142,14 @@
     .secproblemstatement__text>h2 {
         font-size: 45px;
     }  
+}
+
+
+
+@media (min-width:1350px) and (max-width:1600px) {
+
+    .problemstatement__text {
+        padding:0 100px 50px 108px;
+    }
+
 }

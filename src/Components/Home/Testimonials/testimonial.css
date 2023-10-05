@@ -208,8 +208,8 @@
     .testimaonial_review {
         padding-top: 2rem;
         padding-left: 0rem;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
     .testimonial_image>img {
@@ -220,3 +220,15 @@
     }
 }
 
+
+@media (min-width:1600px) and (max-width:2000px) {
+ 
+    .testimaonial_review {
+        padding-top: 2rem;
+        padding-left: 0rem;
+        font-size: 90px;
+        line-height: 50px;
+    
+    }
+
+}

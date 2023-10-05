@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import './portfolio.css';
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img from '../../../assets/images/portfolioheader.png';
-import img1 from '../../../assets/images/BrandsBenchmark.png';
-import img2 from '../../../assets/images/Foundationlogo.png';
-import img4 from '../../../assets/images/Foundation.png';
+import img from '../../../assets/images/design1.svg';
+import img1 from '../../../assets/images/design2.svg';
+import img2 from '../../../assets/images/design3.svg';
+import img4 from '../../../assets/images/design4.svg';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -42,83 +42,38 @@ function Portfolio() {
                         <div className='portfolio_leftside_img'>
                             <img src={img} alt=''></img>
                         </div>
-                        <div className='portfolio_leftside_heading'>
-                            <div className='portfolio_leftside_fristheading'>
-                                <h2>WEB APP + LANDING PAGE</h2>
-                            </div>
-                            <div className='portfolio_leftside_secheading'>
-                                <h3>UX / UI DESIGN</h3>
-                            </div>
-                            <div className='portfolio_leftside_image'>
-                                <img src={img1} alt=''></img>
-                                <span>#UI UX DESIGN </span>
-                            </div>
-                            <hr className='fristline' />
-                            <hr className='lastline' />
+                       
                         </div>
-                    </div>
-
+                       
                     <div className='portfolio_rightside  panel'>
-                        <div className='portfolio_rightside_img'>
-                            <img src={img2} alt=''></img>
+                        
+                    <div className='portfolio_leftside_img'>
+                            <img src={img1} alt=''></img>
                         </div>
-                        <div className='portfolio_leftside_heading'>
-                            <div className='portfolio_rightside_fristheading'>
-                                <h2>LANDING PAGE</h2>
-                            </div>
-                            <div className='portfolio_righttside_secheading'>
-                                <h3>UX / UI DESIGN</h3>
-                            </div>
-                            <div className='portfolio_leftside_image'>
-                                <img src={img4} alt=''></img>
-                                <span>#UI UX DESIGN </span>
-                            </div>
-                            <hr className='fristline' />
-                            <hr className='lastline' />
-                        </div>
+                       
                     </div>
                 </div>
 
                 <div className='portfolio_menu'>
-                    <div className='portfolio_leftside panel'>
+                <div className='portfolio_leftside panel'>
                         <div className='portfolio_leftside_img'>
                             <img src={img} alt=''></img>
                         </div>
-                        <div className='portfolio_leftside_heading'>
-                            <div className='portfolio_leftside_fristheading'>
-                                <h2>WEB APP + LANDING PAGE</h2>
-                            </div>
-                            <div className='portfolio_leftside_secheading'>
-                                <h3>UX / UI DESIGN</h3>
-                            </div>
-                            <div className='portfolio_leftside_image'>
-                                <img src={img1} alt=''></img>
-                                <span>#UI UX DESIGN </span>
-                            </div>
-                            <hr className='fristline' />
-                            <hr className='lastline' />
+                       
+                        </div>
+                       
+                    <div className='portfolio_rightside  panel'>
+                        
+                    <div className='portfolio_leftside_img'>
+                            <img src={img2} alt=''></img>
                         </div>
                     </div>
 
                     <div className='portfolio_rightside  panel'>
                         <div className='portfolio_rightside_img'>
-                            <img src={img2} alt=''></img>
+                            <img src={img4} alt=''></img>
                         </div>
-                        <div className='portfolio_leftside_heading'>
-                            <div className='portfolio_rightside_fristheading'>
-                                <h2>LANDING PAGE</h2>
-                            </div>
-                            <div className='portfolio_righttside_secheading'>
-                                <h3>UX / UI DESIGN</h3>
-                            </div>
-                            <div className='portfolio_leftside_image'>
-                                <img src={img4} alt=''></img>
-                                <span>#UI UX DESIGN </span>
-                            </div>
-                            <hr className='fristline' />
-                            <hr className='lastline' />
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

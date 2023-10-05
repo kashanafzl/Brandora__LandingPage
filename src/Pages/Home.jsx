@@ -31,34 +31,7 @@ function Home() {
       anim.play()
       TextAnim.play()
     });
-    // // * Problem Story
-    // var wrap = gsap.utils.wrap(-100, 400);
-    // gsap.set(".StoryCarousels", { overflow: "hidden" });
-    // gsap.to(".singleQuotes", {
-    //   duration: 5,
-    //   ease: "none",
-    //   y: "-=500", //move each box 500px to right
-    //   modifiers: {
-    //     y: gsap.utils.unitize(wrap) //force y value to wrap when it reaches -100
-    //   },
-    //   repeat: -1
-    // });
-
-
-    // gsap.registerPlugin(ScrollTrigger);
-
-    //   ScrollTrigger.defaults({
-    //     scroller: ".Problemstatement__section"
-    //   });
-
-    //   gsap.to(".Problemstatement__section", {
-    //     scrollTrigger: ".Problemstatement__section", 
-    //     duration: 2, 
-    //     rotation: 360,
-
-
-    //   });
-
+   
 
 
 
@@ -75,17 +48,7 @@ function Home() {
           <Nav />
           <HomeTagline />
           <SocialHandles />
-          {/* <div className="floatContactBtn">
-            <div className="letsContact">
-              <Link to='/d'>
-                <span>
-                  Lets Connect
-                </span>
-                <Icon icon={'ant-design:arrow-right-outlined'} />
-              </Link>
-
-            </div>
-          </div> */}
+       
           <div className="mainline">
           <div className="LineSvg">
             <svg ref={svgline} width="1450" height="500" viewBox="0 0 1450 867" fill="none" xmlns="http://www.w3.org/2000/svg">

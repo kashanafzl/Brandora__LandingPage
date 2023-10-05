@@ -17,9 +17,12 @@ function Problemstatement() {
           <div className='problemstatement'>
                 <div className='problemstatement__text'>
                     <div className='fristproblemstatement__text' >
-                        <h2 id='heading2' data-aos="fade-right"   >But Why Is Desiging A  Product For Yourself <br /> Challenging</h2>
+                        <h2 id='heading2' data-aos="fade-right"   >But Why Is Desiging A  <br /> 
+                         Product For Yourself <br />
+                         Challenging</h2>
                         <div className='secproblemstatement__text'>
-                            <h2 id='heading2'  data-aos="fade-right" >Finding Your Target  Audience And Understaning <br /> Their Pain-Points</h2>
+                            <h2 id='heading2'  data-aos="fade-right" >Finding Your Target <br />
+                              Audience And Understaning <br /> Their Pain-Points</h2>
                         </div>
                     </div>
                     <div className='problemstatement__img'>

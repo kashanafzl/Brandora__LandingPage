@@ -70,7 +70,7 @@ ul.socialsV li.sLinkV a svg:hover {
 }
 
 .socialHandles {
-    position: fixed;
+    /* position: fixed; */
     height: 100%;
     top: 0px;
 }
@@ -117,7 +117,7 @@ ul.socialsV li.sLinkV a svg:hover {
     }
 
     .socialLinks {
-        top: 42%;
+        top: 60%;
     }
 
     .HeroTagline {

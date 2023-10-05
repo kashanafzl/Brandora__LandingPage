@@ -5,53 +5,56 @@
     left: 200px;
     top: 275px; */
     margin: 15rem 20rem 15rem 14rem;
- padding-top: 20px;}
+    padding-top: 20px;
+}
 
 .fristStoryQoute>h2,
 .secStoryQoute>h2,
 .thiredStoryQoute>h2 {
     font-family: NexaBold;
     font-size: 38px;
-   padding-block: 50px;
+    padding-block: 50px;
     color: #3F3F3F;
-   
+
 }
 
 .fristStoryQoute>h2,
 .thiredStoryQoute>h2 {
     color: #3F3F3F;
     opacity: 0.1;
-    
+
 }
 
 /* animation code */
 
 
-.StoryCarousels{
+.StoryCarousels {
     position: relative;
-    width:80%;
-    height:430px;
-    margin:50px;
+    width: 80%;
+    height: 430px;
+    margin: 50px;
     margin-left: 0px;
-    overflow:hidden;
-    visibility:hidden;
-    cursor:pointer;
-    
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: -2;
+
 }
-.singleQuotes{
-  position: absolute;
-  top:0;
-  left:0;
-  width:90%;
-  height: 100px;
-  background: transparent;
-  padding-left:10px;
-  font-family: sans-serif;
-  color:black;
-  font-size: 10px;
-  font-weight: 800;
-  line-height: 60px;
-  z-index:1;
+
+.singleQuotes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100px;
+    background: transparent;
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 60px;
+    z-index: 1;
 }
 
 
@@ -90,7 +93,7 @@
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
-   
+
         font-size: 30px;
     }
 }
@@ -103,9 +106,10 @@
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
-        font-size: 55px;
+        font-size: 40px;
     }
-     .StoryCarousels{
-        width:80%;
+
+    .StoryCarousels {
+        width: 80%;
     }
 }
