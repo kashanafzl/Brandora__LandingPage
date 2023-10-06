@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/kashanafzl/Brandora__LandingPage/static/css/main.c1be752c.css",
+    "main.js": "/kashanafzl/Brandora__LandingPage/static/js/main.d43b86be.js",
+    "static/js/787.68ff73a8.chunk.js": "/kashanafzl/Brandora__LandingPage/static/js/787.68ff73a8.chunk.js",
+    "static/media/finalvideo.mp4": "/kashanafzl/Brandora__LandingPage/static/media/finalvideo.a7099e787be2fc2932af.mp4",
+    "static/media/design3.svg": "/kashanafzl/Brandora__LandingPage/static/media/design3.165e7a506d179339df3c1da8746efee7.svg",
+    "static/media/design2.svg": "/kashanafzl/Brandora__LandingPage/static/media/design2.a3cee314b8c66720bf6119f351e283b7.svg",
+    "static/media/design4.svg": "/kashanafzl/Brandora__LandingPage/static/media/design4.c5ec957c1524ac455565537a97e41cc2.svg",
+    "static/media/reviewclient.png": "/kashanafzl/Brandora__LandingPage/static/media/reviewclient.6a34c0e3faf2e4e678f7.png",
+    "static/media/sad.png": "/kashanafzl/Brandora__LandingPage/static/media/sad.90f16a89491ec62227d6.png",
+    "static/media/design1.svg": "/kashanafzl/Brandora__LandingPage/static/media/design1.2ab977580b445046288988b237499545.svg",
+    "static/media/Gilroy-Regular.ttf": "/kashanafzl/Brandora__LandingPage/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-Medium.ttf": "/kashanafzl/Brandora__LandingPage/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/GallientRegular-eZoMp.ttf": "/kashanafzl/Brandora__LandingPage/static/media/GallientRegular-eZoMp.419a762c1efbc6a5bd7c.ttf",
+    "static/media/nexa-bold.otf": "/kashanafzl/Brandora__LandingPage/static/media/nexa-bold.c2b99812f7617bd31a22.otf",
+    "static/media/nexa-light.otf": "/kashanafzl/Brandora__LandingPage/static/media/nexa-light.2bac835e8aabddeb710c.otf",
+    "static/media/brandoraLogo.svg": "/kashanafzl/Brandora__LandingPage/static/media/brandoraLogo.c629a9630cfde039bae45b12be2de70b.svg",
+    "index.html": "/kashanafzl/Brandora__LandingPage/index.html",
+    "static/media/qot.svg": "/kashanafzl/Brandora__LandingPage/static/media/qot.47253e1ed2e389ccce0ab41c7821a956.svg",
+    "main.c1be752c.css.map": "/kashanafzl/Brandora__LandingPage/static/css/main.c1be752c.css.map",
+    "main.d43b86be.js.map": "/kashanafzl/Brandora__LandingPage/static/js/main.d43b86be.js.map",
+    "787.68ff73a8.chunk.js.map": "/kashanafzl/Brandora__LandingPage/static/js/787.68ff73a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1be752c.css",
+    "static/js/main.d43b86be.js"
+  ]
+}
