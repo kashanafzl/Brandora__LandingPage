@@ -78,7 +78,7 @@
   
   .overlay {
     position: fixed;
-    background: var(--Secondary);
+    background: #51B9E9;
     color: black;
     top: 0;
     left: 0;
@@ -89,8 +89,24 @@
     visibility: hidden;
     transition: opacity 0.35s, visibility 0.35s, height 0.35s;
     overflow: hidden;
+    
   
   }
+
+  .overlay-menu span{
+    color: #FFF;
+    font-family: NexaBold;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    text-transform: capitalize;
+    
+  }
+  
+
+
+  
+
   
   .overlay.open {
     opacity: 1;

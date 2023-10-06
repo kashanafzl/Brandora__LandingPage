@@ -2,8 +2,8 @@ import React, { useLayoutEffect, useRef } from 'react'
 import HomeTagline from '../Components/Home/HomeTagline/HomeTagline'
 import Nav from '../Components/Home/Nav/Nav'
 import SocialHandles from '../Components/Home/Social/SocialHandles'
-import { Link } from 'react-router-dom'
-import { Icon } from '@iconify/react'
+// import { Link } from 'react-router-dom'
+// import { Icon } from '@iconify/react'
 import gsap from 'gsap'
 import ProblemCycle from '../Components/Home/ProblemCycle/ProblemCycle';
 import Motivation from '../Components/Home/Motivation/motivation';
@@ -17,7 +17,7 @@ import Testimonial from '../Components/Home/Testimonials/testimonial';
 import Consultancy from '../Components/Home/Consultancy/consultancy';
 import Contactus from '../Components/Home/ContactUs/contactus';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 
 gsap.registerPlugin(ScrollTrigger);
 function Home() {

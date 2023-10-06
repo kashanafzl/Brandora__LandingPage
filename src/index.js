@@ -3,16 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './Pages/Home';
+import Send from './Send/Send.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 // import Error from './Pages/Error';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
   },
+
+  {
+    path: "/send",
+    element: <Send/>,
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -31,12 +31,15 @@ function App() {
               <li>
                 <div style={{ display: 'flex' }}>
             
+                  <span>01</span>
                   <a href="#work">Work</a>
                 </div>
               </li>
               <li>
                 <div style={{ display: 'flex' }}>
+               
                   <a id="clientulli" href="/">Clients</a>
+                  <span className="clientspan">02</span>
               
 
                 </div>
@@ -44,12 +47,15 @@ function App() {
               <li>
                 <div style={{ display: 'flex' }}>
          
+                <span>03</span>
                   <a href="/">About</a>
                 </div>
               </li>
               <li>
                 <div style={{ display: 'flex' }}>
+           
                   <a id="clientulli1" href="/">Contact</a>
+                  <span className="clientspan">04</span>
         
 
                 </div>

@@ -16,21 +16,21 @@ function Motivation() {
             myvideo.current.pause();
         }
     }
-    // function mouseon() {
-    //     var cursor = document.getElementById("cursor")
-    //     document.addEventListener('mousemove', function (e) {
-    //         let x = e.clientX;
-    //         let y = e.clientY;
-    //         console.log(x, y);
-    //         cursor.style.top = y + "px";
-    //         cursor.style.left = x + "px";
-    //     })
-    // }
+    function mouseon() {
+        var cursor = document.getElementById("cursor")
+        document.addEventListener('mousemove', function (e) {
+            let x = e.clientX;
+            let y = e.clientY;
+            console.log(x, y);
+            cursor.style.top = y + "px";
+            cursor.style.left = x + "px";
+        })
+    }
 
 
 
     return (
-        <div className='motivation' id='motivation' /*onMouseOver={mouseon}*/ onClick={() => { handlePlayVideo() }}>
+        <div className='motivation' id='motivation' onMouseOver={mouseon} onClick={() => { handlePlayVideo() }}>
 
             <video autoPlay muted loop ref={myvideo} className='motivation__video'> 
                 <source src={sendvideo} type="video/mp4" />

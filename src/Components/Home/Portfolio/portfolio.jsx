@@ -2,10 +2,13 @@ import React, { useEffect } from 'react';
 import './portfolio.css';
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img from '../../../assets/images/design1.svg';
-import img1 from '../../../assets/images/design2.svg';
-import img2 from '../../../assets/images/design3.svg';
-import img4 from '../../../assets/images/design4.svg';
+import design1 from '../../../assets/images/design1.svg';
+import design2 from '../../../assets/images/design2.svg';
+import design3 from '../../../assets/images/design3.svg';
+import design4 from '../../../assets/images/design4.svg';
+
+import { Link } from 'react-router-dom';
+
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -39,16 +42,19 @@ function Portfolio() {
             <div className="container portfolio_">
                 <div className='portfolio_menu'>
                     <div className='portfolio_leftside panel'>
-                        <div className='portfolio_leftside_img'>
-                            <img src={img} alt=''></img>
+
+                    <Link to='/Send'> 
+                     <div className='portfolio_leftside_img'>
+                            <img src={design1} alt=''></img>
                         </div>
+                        </Link>
                        
                         </div>
                        
                     <div className='portfolio_rightside  panel'>
                         
                     <div className='portfolio_leftside_img'>
-                            <img src={img1} alt=''></img>
+                            <img src={design2} alt=''></img>
                         </div>
                        
                     </div>
@@ -57,7 +63,7 @@ function Portfolio() {
                 <div className='portfolio_menu'>
                 <div className='portfolio_leftside panel'>
                         <div className='portfolio_leftside_img'>
-                            <img src={img} alt=''></img>
+                            <img src={design3} alt=''></img>
                         </div>
                        
                         </div>
@@ -65,15 +71,11 @@ function Portfolio() {
                     <div className='portfolio_rightside  panel'>
                         
                     <div className='portfolio_leftside_img'>
-                            <img src={img2} alt=''></img>
+                            <img src={design4} alt=''></img>
                         </div>
                     </div>
 
-                    <div className='portfolio_rightside  panel'>
-                        <div className='portfolio_rightside_img'>
-                            <img src={img4} alt=''></img>
-                        </div>
-                        </div>
+                   
                 </div>
             </div>
         </div>
