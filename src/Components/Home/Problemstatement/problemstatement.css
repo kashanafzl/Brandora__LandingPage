@@ -50,7 +50,11 @@
 
 @media (min-width:320px) and (max-width:641px) {
 
-
+    .problemstatement , .fristproblemstatement__text{
+        margin-top: 0rem;
+  
+    }
+    
     .problemstatement__img {
         display: none;
     }
