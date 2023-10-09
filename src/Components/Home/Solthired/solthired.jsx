@@ -31,11 +31,11 @@ function Solthired() {
             </div>
 
             <div className='fourth_solthired'>
-                <span>in the</span>
+                <span>In The</span>
             </div>
 
             <div className='fifth_solthired'>
-                <span>center</span>
+                <span>Center</span>
             </div>
 
         </div>

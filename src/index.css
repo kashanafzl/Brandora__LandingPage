@@ -4,14 +4,15 @@
   --textBlack1: #232323;
   --textBlack2:#3F3F3F;
   --white: #fff;
+  --greencolor : #2BAC76;
 }
 *{
   padding: 0;
   margin: 0;
 }
 @font-face {
-  font-family: NexaLight;
-  src: url('assets/fonts/nexa-light.otf');
+  font-family: nexa-light;
+  src: url('assets/fonts/nexa-light.ttf');
 }
 @font-face {
   font-family: NexaBold;

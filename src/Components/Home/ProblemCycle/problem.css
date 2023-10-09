@@ -60,9 +60,9 @@
 
 
 
-@media (min-width:320px) and (max-width:481px) {
+@media (min-width:320px) and (max-width:491px) {
     .Problem {
-        margin: 2rem 2rem 1rem 2.5rem;
+        margin: 1rem 2rem 1rem 1.5rem;
     }
 
     .fristStoryQoute>h2,

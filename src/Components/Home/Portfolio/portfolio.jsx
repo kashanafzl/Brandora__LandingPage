@@ -45,7 +45,7 @@ function Portfolio() {
 
                     <Link to='/Send'> 
                      <div className='portfolio_leftside_img'>
-                            <img src={design1} alt=''></img>
+                            <img src={design3} alt=''></img>
                         </div>
                         </Link>
                        
@@ -63,7 +63,7 @@ function Portfolio() {
                 <div className='portfolio_menu'>
                 <div className='portfolio_leftside panel'>
                         <div className='portfolio_leftside_img'>
-                            <img src={design3} alt=''></img>
+                            <img src={design1} alt=''></img>
                         </div>
                        
                         </div>

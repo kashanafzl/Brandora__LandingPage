@@ -18,7 +18,8 @@
 
 .solsecond__text {
     margin-top: 60px;
-    font-family: NexaLight;
+    font-family: nexa-light;
+    font-weight: 400;
     text-transform: capitalize;
     font-size: 70px;
     text-align: center;

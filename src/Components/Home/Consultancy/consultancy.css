@@ -16,7 +16,7 @@
 }
 
 .consultancy_text>span {
-    font-family: NexaLight;
+    font-family: nexa-light;
     font-size: 70px;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@
 
 @media (min-width:320px) and (max-width:971px) {
     .consultancy {
-        padding: 0rem 0px 13rem 1.8rem;
+        padding: 0rem 0px 5rem 1.8rem;
     }
 
     .consultancy_heading>h2 {

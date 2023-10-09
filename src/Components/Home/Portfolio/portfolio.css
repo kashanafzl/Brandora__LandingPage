@@ -6,7 +6,7 @@
 }
 
 .portfolio_header {
-    padding: 2.5rem 0;
+    /* padding: 2.5rem 0; */
     text-align: center;
 }
 
@@ -53,8 +53,9 @@
 
 
 .portfolio_leftside_img img {
-    height: 65vh;
     cursor: pointer;
+    height: 95vh;
+    width: 630px;
 }
 
 
@@ -198,4 +199,17 @@
 
 
 } */
+
+
+
+@media (min-width:320px) and (max-width:491px) {
+    .portfolio_leftside_img img {
+        cursor: pointer;
+        height: 56vh;
+        width: 265px;
+    
+    }
+
+}
+
 

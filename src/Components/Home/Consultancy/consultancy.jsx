@@ -5,7 +5,7 @@ function Consultancy() {
     return (
         <div className='consultancy'>
             <div className='consultancy_heading'>
-                <h2>Stills&nbsp;Stuck?</h2>
+                <h2>Still&nbsp;Stuck?</h2>
             </div>
             <div className='consultancy_text'>
                 <span>We&nbsp;Consult</span>

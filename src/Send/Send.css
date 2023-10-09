@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+.sendlandingpage {
+    position: absolute;
+    top: 150px;
+    padding-left: 60px;
+    display: flex;
+}
+
+
+.sendlogo1 {
+    width: 450px;
+    padding-block: 10px;
+
+}
+
+.sendrightside {
+    flex: 1;
+}
+
+
+.sendrightside img {
+    width: 100%;
+}
+
+.sendleftside {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 65px;
+
+}
+
+.sendleftside div:nth-of-type(1) {
+    font-family: 'Inter', sans-serif;
+    color: #383838;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.462px;
+}
+
+.sendleftside div:nth-of-type(1) span {
+    font-family: 'Inter', sans-serif;
+    color: var(--greencolor);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.462px;
+}
+
+
+/* button div */
+.sendleftside div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.sendleftside span {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.2px;
+}
+
+
+.sendleftside button {
+    background-color: var(--greencolor);
+    color: #fff;
+    border: none;
+    font-family: nexa-light;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+#container {
+    height: 100vh;
+    /* set width based on sections */
+    width: 400%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.horizontal-section {
+    background-color: #FFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Oswald", sans-serif;
+    font-size: 8vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width:1266px) {
+    .sendleftside div:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .sendleftside div:nth-of-type(1) span {
+        font-size: 30px;
+    }
+
+    .sendleftside span {
+        font-size: 16px;
+    }
+
+
+    .sendlogo1 {
+        width: 400px;
+        padding-block: 10px;
+
+    }
+
+    #senddesignbtn {
+        padding: 14px 14px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:990px) {
+    .sendleftside div:nth-of-type(1) {
+        font-size: 25px;
+    }
+
+    .sendleftside div:nth-of-type(1) span {
+        font-size: 25px;
+    }
+
+    .sendleftside span {
+        font-size: 14px;
+    }
+
+
+    .sendlogo1 {
+        width: 350px;
+        padding-block: 10px;
+
+    }
+
+    #senddesignbtn {
+        padding: 12px 12px;
+    }
+}
+
+@media screen  and (max-width:887px) {
+    .sendleftside div:nth-of-type(1){
+        font-size: 22px;
+    }
+
+    .sendleftside div:nth-of-type(1) span{
+        font-size: 22px;
+    }
+    .sendleftside span{
+        font-size: 12px;
+    }
+
+    
+.sendlogo1{
+    width: 300px;
+    padding-block: 10px;
+
+}
+
+#senddesignbtn{
+    padding: 12px 12px;
+}
+
+.sendleftside div:nth-of-type(2) {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.sendleftside button {
+    font-size: 14px;
+}
+
+@media screen  and (max-width:770px) {
+    .sendleftside div:nth-of-type(1){
+        font-size: 20px;
+    }
+
+    .sendleftside div:nth-of-type(1) span{
+        font-size: 20px;
+    }
+    .sendleftside span{
+        font-size: 10px;
+    }
+
+    
+.sendlogo1{
+    width: 280px;
+    padding-block: 10px;
+
+}
+
+#senddesignbtn{
+    padding: 10px 10px;
+}
+
+}
+
+
+.sendleftside button {
+    font-size: 12px;
+}
+
+
+@media screen  and (max-width:500px) {
+    .horizontal-section{
+        width: 80vw;
+    }
+}
+
+
+
+
+}

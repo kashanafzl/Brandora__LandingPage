@@ -8,8 +8,10 @@
 .second_solthired,
 .fourth_solthired,
 .fifth_solthired {
-    font-family: NexaLight;
+    font-family: nexa-light;
     font-size: 70px;
+    color: #3F3F3F;
+    font-weight: 400;
 }
 
 .customer_heading>h2 {
