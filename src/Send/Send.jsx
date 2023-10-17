@@ -1,15 +1,23 @@
 
-import design1 from '../assets/images/design1.svg';
-import design2 from '../assets/images/design2.svg';
-import design3 from '../assets/images/design3.svg';
-import design4 from '../assets/images/design4.svg';
+// import design1 from '../assets/images/design1.svg';
+// import design2 from '../assets/images/design2.svg';
+// import design3 from '../assets/images/design3.svg';
+// import design4 from '../assets/images/design4.svg';
 import { Icon } from '@iconify/react';
+
+// videos
+import sendvideo from '../assets/videos/send.mp4'
+import discussvideo from '../assets/videos/Discuss.mp4'
+import topkeyvideo from '../assets/videos/topkey.mp4'
+
+
+import discusslogo from '../assets/images/discusslogo.svg'
 
 // import { Link } from 'react-router-dom';
 
 import Nav from '../Components/Home/Nav/Nav'
 import Sendlogo from '../assets/images/sendlogo.svg'
-import sendframe from '../assets/images/sendframe.svg'
+// import sendframe from '../assets/images/sendframe.svg'
 
 import React from 'react';
 import gsap from 'gsap';
@@ -50,7 +58,6 @@ const Swiper = () => {
         <main id="container">
             {/* Section 01 */}
             <section className="horizontal-section">
-                {/* <h1 className="heading">Horizontal Scroll</h1> */}
                 <div className='sendleftside'>
 
                     <img className='sendlogo1' src={Sendlogo} alt="" />
@@ -74,23 +81,70 @@ const Swiper = () => {
             <section className="horizontal-section">
 
                 <div className='sendrightside'>
-                    <img src={sendframe} alt="" />
+                    {/* <img src={sendframe} alt="" /> */}
+                    <video  src={sendvideo} width="900" height="400" autoPlay muted loop />
+                </div>
+                
+            </section>
+
+        
+            <section className="horizontal-section">
+                <div className='discussleftside'>
+
+                    <img className='discusslogo' src={discusslogo} alt="" />
+
+                    <div>
+                        The Ultimate Platform  for
+                        <br />
+                        <span>  Effective Collaboration</span>
+                    </div>
+
+
+                    <span>Send was created to streamline team communication and
+                        <br />  collaboration. With features like customizable channels,
+                        <br /> direct messaging, efficient file sharing, and real-time
+                        <br /> notifications.</span>
+                    <div><button id='discussdesignbtn'>View Case study <Icon icon="maki:arrow" /></button></div>
                 </div>
             </section>
+
+            {/* Section 02 */}
+            <section className="horizontal-section">
+
+                <div className='sendrightside'>
+                    {/* <img src={sendframe} alt="" /> */}
+                    <video  src={discussvideo} width="900" height="400" autoPlay muted loop />
+                </div>
+            </section>
+
 
             {/* Section 03 */}
             <section className="horizontal-section">
-    
-                <div className='sendrightside'>
-                    <img src={design2} alt="" />
+                <div className='sendleftside'>
+
+                    <img className='sendlogo1' src={Sendlogo} alt="" />
+
+                    <div>
+                        The Ultimate Platform  for
+                        <br />
+                        <span>  Effective Collaboration</span>
+                    </div>
+
+
+                    <span>Send was created to streamline team communication and
+                        <br />  collaboration. With features like customizable channels,
+                        <br /> direct messaging, efficient file sharing, and real-time
+                        <br /> notifications.</span>
+                    <div><button id='senddesignbtn'>View Case study <Icon icon="maki:arrow" /></button></div>
                 </div>
             </section>
 
-            {/* Section 04 */}
+            {/* Section 02 */}
             <section className="horizontal-section">
-        
+
                 <div className='sendrightside'>
-                    <img src={design3} alt="" />
+                    {/* <img src={sendframe} alt="" /> */}
+                    <video  src={topkeyvideo} width="900" height="400" autoPlay muted loop />
                 </div>
             </section>
         </main>

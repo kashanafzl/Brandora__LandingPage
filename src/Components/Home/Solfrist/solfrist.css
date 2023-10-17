@@ -45,8 +45,8 @@
     .sol_fristheading>h2,
     .sol_secheading>h2,
     .sol_thiredheading>h2 {
-        font-size: 43px;
-        line-height: 3rem;
+        font-size: 55px;
+        line-height: 5rem;
     }
 
     .sol_header>span {
@@ -63,8 +63,8 @@
     .sol_fristheading>h2,
     .sol_secheading>h2,
     .sol_thiredheading>h2 {
-        font-size: 58px;
-        line-height: 4rem;
+        font-size: 60px;
+        line-height: 5rem;
     }
 }
 

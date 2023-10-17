@@ -20,6 +20,10 @@ const router = createBrowserRouter([
     path: "/send",
     element: <Send/>,
   },
+  {
+    path: "/discuss",
+    element: <Send/>,
+  },
 
 ]);
 

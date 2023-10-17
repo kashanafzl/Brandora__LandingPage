@@ -53,9 +53,11 @@ function Portfolio() {
                        
                     <div className='portfolio_rightside  panel'>
                         
+                    <Link to='/Send'> 
                     <div className='portfolio_leftside_img'>
                             <img src={design2} alt=''></img>
                         </div>
+                        </Link>
                        
                     </div>
                 </div>

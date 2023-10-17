@@ -39,7 +39,7 @@ function Testimonial() {
                     <img className='qotimg2' src={qotimg} alt="" />
                 </div>
                 <div className='testimonial_icons'>
-                    <TfiArrowCircleLeft  />
+                    <TfiArrowCircleLeft  className='testimonial_secicon' />
                     <TfiArrowCircleRight  className='testimonial_secicon'/>
                 </div>
 

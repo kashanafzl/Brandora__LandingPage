@@ -53,6 +53,7 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.462px;
+
 }
 
 .sendleftside div:nth-of-type(1) span {
@@ -63,6 +64,7 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.462px;
+    
 }
 
 
@@ -88,6 +90,7 @@ body {
 }
 
 
+
 .sendleftside button {
     background-color: var(--greencolor);
     color: #fff;
@@ -101,37 +104,9 @@ body {
 }
 
 
-
-#container {
-    height: 100vh;
-    /* set width based on sections */
-    width: 400%;
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
+.nextprojectdiv{
+    height: 100px;
 }
-
-.horizontal-section {
-    background-color: #FFF;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading {
-    font-family: "Oswald", sans-serif;
-    font-size: 8vw;
-    font-weight: 300;
-    color: white;
-    letter-spacing: 1vw;
-    text-transform: uppercase;
-}
-
 
 
 @media screen and (max-width:1266px) {
@@ -158,9 +133,20 @@ body {
         padding: 14px 14px;
     }
 
-
+    .sendrightside video{
+     width: 700px;
+    }
 
 }
+
+
+@media screen and (max-width:1115px) {
+    .sendrightside video{
+        width: 600px;
+       }
+
+}
+
 
 
 
@@ -188,6 +174,11 @@ body {
     #senddesignbtn {
         padding: 12px 12px;
     }
+
+    .sendrightside video{
+        width: 500px;
+       }
+
 }
 
 @media screen  and (max-width:887px) {
@@ -226,6 +217,12 @@ body {
     font-size: 14px;
 }
 
+.sendrightside video{
+    width: 400px;
+   }
+
+
+
 @media screen  and (max-width:770px) {
     .sendleftside div:nth-of-type(1){
         font-size: 20px;
@@ -249,6 +246,11 @@ body {
     padding: 10px 10px;
 }
 
+.sendrightside video{
+    width: 300px;
+   }
+
+
 }
 
 
@@ -259,11 +261,299 @@ body {
 
 @media screen  and (max-width:500px) {
     .horizontal-section{
-        width: 80vw;
+        width: 100vw;
     }
+
+    .sendrightside video{
+        width: 260px;
+       }
+
+
 }
 
 
 
 
 }
+
+
+/* here discuss code */
+
+.discusslogo {
+    width: 200px;
+    padding-block: 10px;
+
+}
+
+
+.discussleftside {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 65px;
+
+}
+
+.discussleftside div:nth-of-type(1) {
+    font-family: 'Inter', sans-serif;
+    color: #383838;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.462px;
+}
+
+.discussleftside div:nth-of-type(1) span {
+    font-family: 'Inter', sans-serif;
+    color: var(--orangecolor);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.462px;
+}
+
+
+/* button div */
+.discussleftside div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.discussleftside span {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.2px;
+}
+
+
+.discussleftside button {
+    background-color: var(--orangecolor);
+    color: #fff;
+    border: none;
+    font-family: nexa-light;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1266px) {
+    .discussleftside div:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .discussleftside div:nth-of-type(1) span {
+        font-size: 30px;
+    }
+
+    .discussleftside span {
+        font-size: 16px;
+    }
+
+
+    .discusslogo {
+        width: 170px;
+        padding-block: 10px;
+    
+    }
+
+    #discussdesignbtn {
+        padding: 14px 14px;
+  
+    }
+
+    .sendrightside video{
+     width: 700px;
+    }
+
+}
+
+
+@media screen and (max-width:1115px) {
+    .sendrightside video{
+        width: 600px;
+       }
+
+}
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .discussleftside div:nth-of-type(1) {
+        font-size: 25px;
+    }
+
+    .discussleftside div:nth-of-type(1) span {
+        font-size: 25px;
+    }
+
+    .discussleftside span {
+        font-size: 14px;
+    }
+
+
+    .discusslogo {
+        width: 150px;
+        padding-block: 10px;
+    
+    }
+
+    #discussdesignbtn {
+        padding: 12px 12px;
+  
+    }
+
+    .sendrightside video{
+        width: 500px;
+       }
+
+}
+
+@media screen  and (max-width:887px) {
+    .discussleftside div:nth-of-type(1){
+        font-size: 22px;
+    }
+
+    .discussleftside div:nth-of-type(1) span{
+        font-size: 22px;
+    }
+    .discussleftside span{
+        font-size: 12px;
+    }
+
+    
+   .discusslogo {
+        width: 130px;
+        padding-block: 10px;
+    
+    }
+
+    #discussdesignbtn {
+        padding: 12px 12px;
+  
+    }
+
+.discussleftside div:nth-of-type(2) {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.discussleftside button {
+    font-size: 14px;
+}
+
+.sendrightside video{
+    width: 400px;
+   }
+
+
+
+@media screen  and (max-width:770px) {
+    .discussleftside div:nth-of-type(1){
+        font-size: 20px;
+    }
+
+    .discussleftside div:nth-of-type(1) span{
+        font-size: 20px;
+    }
+    .discussleftside span{
+        font-size: 10px;
+    }
+
+    
+    .discusslogo {
+        width: 110px;
+        padding-block: 10px;
+    
+    }
+
+    #discussdesignbtn {
+        padding: 10px 10px;
+  
+    }
+
+.sendrightside video{
+    width: 300px;
+   }
+
+
+}
+
+
+.discussleftside button {
+    font-size: 12px;
+}
+
+
+@media screen  and (max-width:500px) {
+    .horizontal-section{
+        width: 100vw;
+    }
+
+    .sendrightside video{
+        width: 260px;
+       }
+
+
+}
+
+
+
+
+}
+
+/* here discuss code */
+
+
+#container {
+    height: 100vh;
+    /* set width based on sections */
+    width: 400%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.horizontal-section {
+    background-color: #FFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Oswald", sans-serif;
+    font-size: 8vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+}
+
+
