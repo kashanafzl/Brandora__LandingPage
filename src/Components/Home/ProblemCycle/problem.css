@@ -1,10 +1,5 @@
 .Problem {
-    /* position: relative;
-    width: 1006px;
-    height: 100vh;
-    left: 200px;
-    top: 275px; */
-    /* margin: 15rem 20rem 15rem 14rem; */
+
     margin-top: 5rem;
     padding-left: 3rem;
     padding-block: 4rem;
@@ -12,8 +7,9 @@
     background-color: #07288B;
     color: #fff;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -106,55 +102,110 @@
 }
 
 
+.processmaindiv{
+    width: 70%;
+}
+
 
 
 @media (min-width:320px) and (max-width:491px) {
     .Problem {
-        margin: 1rem 2rem 1rem 1.5rem;
+        margin-top: 10rem;
+        padding-left: 2rem;
     }
 
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
     }
+
+    .Problem h1 {
+        font-size: 40px;
+
+    }
+
+    .groupf-container{
+        display: none;
+    }
+
+    .processmaindiv{
+        width: 70%;
+        flex-basis: 500px;
+    }
+    
+    
+
+    
 }
 
 @media (min-width:482px) and (max-width:641px) {
     .Problem {
-        margin: 12rem 0rem 16rem 7rem;
+        margin-top: 10rem;
+        padding-left: 2rem;
     }
 
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
-        font-size: 38px;
+        font-size: 18px;
     }
+
+    .groupf-container{
+        display: none;
+    }
+
+    .Problem h1 {
+        font-size: 30px;
+
+    }
+
+    .processmaindiv{
+        width: 70%;
+        flex-basis: 500px;
+    }
+    
+    
+
+
 }
 
 @media (min-width: 642px) and (max-width:1025px) {
     .Problem {
-        margin: 12rem 0rem 16rem 7rem;
+        margin-top: 10rem;
     }
 
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
 
-        font-size: 30px;
+        font-size: 25px;
     }
+
+
+    .groupf-container{
+        display: none;
+    }
+
+    .Problem h1 {
+        font-size: 40px;
+
+    }
+    
+
+
 }
 
 @media (min-width:1026px) and (max-width:1281px) {
     .Problem {
-        margin: 12rem 10rem 16rem 7rem;
+        margin-top: 10rem;
     }
 
     .fristStoryQoute>h2,
     .secStoryQoute>h2,
     .thiredStoryQoute>h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .StoryCarousels {

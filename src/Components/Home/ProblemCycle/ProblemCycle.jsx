@@ -152,13 +152,13 @@ function ProblemCycle() {
     // }, [inView]);
 
 
-    const transition = {duration : 4, type: 'spring'}
+    const transition = { duration: 2, type: 'spring' }
 
     return (
         <>
             <div className="Problem">
 
-                <div style={{ width: '70%' }}>
+                <div className='processmaindiv'>
                     <h1>Process & approach</h1>
                     <div className="StoryCarousels">
                         <div className="singleQuotes">
@@ -188,18 +188,18 @@ function ProblemCycle() {
                 </div>
 
                 <div className='groupf-container'>
-      <img src={circle} alt="" />
+                    <img src={circle} alt="" />
 
-      <motion.img
-        id='blue'
-        className='groupf'
-        src={bluegroup}
-        alt=""
-        initial={{left: '-36%' , top :  '50%'}}
-        whileInView={{left: '-24% ' ,  top : '10%'}}
-        transition={transition}
-      />
-    </div>
+                    <motion.img
+                        id='blue'
+                        className='groupf'
+                        src={bluegroup}
+                        alt=""
+                        initial={{ left: '40%' }}
+                        whileInView={{ left: '-40% ', top: '20%' }}
+                        transition={transition}
+                    />
+                </div>
             </div>
         </>
     )
