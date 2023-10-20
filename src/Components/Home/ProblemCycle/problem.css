@@ -4,17 +4,65 @@
     height: 100vh;
     left: 200px;
     top: 275px; */
-    margin: 15rem 20rem 15rem 14rem;
-    padding-top: 20px;
+    /* margin: 15rem 20rem 15rem 14rem; */
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-block: 4rem;
+    /* border: 2px solid red; */
+    background-color: #07288B;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
+.groupf-container {
+    position: relative;
+}
+
+.groupf-container img {
+    height: 400px;
+}
+
+
+#blue {
+    height: 200px;
+    position: absolute;
+    right: -140px;
+    top: 100px;
+}
+
+.groupf {
+    height: 400px;
+}
+
+
+.Problem h1 {
+    color: #FFF;
+    font-family: Poppins;
+    padding-top: 1rem;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
 
 .fristStoryQoute>h2,
 .secStoryQoute>h2,
 .thiredStoryQoute>h2 {
     font-family: NexaBold;
-    font-size: 38px;
-    padding-block: 50px;
-    color: #3F3F3F;
+    font-weight: 400;
+    font-size: 25px;
+    padding-block: 0px !important;
+    color: #fff;
+    line-height: 40px;
+
 
 }
 

@@ -1,9 +1,18 @@
 import React from 'react'
 import './problem.css'
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { gsap } from "gsap";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
+
+
+import circle from '../../../assets/images/circle.svg'
+import bluegroup from '../../../assets/images/bluegroup.svg'
 
 function ProblemCycle() {
+
+    const controls = useAnimation();
+
     useEffect(() => {
         // = slider intro =========
         var imgs = gsap.utils.toArray(".singleQuotes"),
@@ -54,7 +63,7 @@ function ProblemCycle() {
 
                     .set(img01, { zIndex: 2 }, 0.1)
                     .to(img01, { x: 20, duration: 0.5, opacity: 1 }, 0.1)
-                    
+
                     .to(img01, { y: 150, duration: 0.5 }, 0.3)
 
                     .to(img02, { x: 20, y: 300, duration: 0.5, opacity: 0.05 }, 0.1)
@@ -99,7 +108,7 @@ function ProblemCycle() {
         // start the crossfade
         endlessMinus = gsap.delayedCall();
         endless = gsap.delayedCall(0, crossfade);
-        
+
         console.log(endless);
         console.log(endlessMinus);
         console.log(noImgs);
@@ -109,28 +118,88 @@ function ProblemCycle() {
 
     }, [])
 
+    // useEffect(() => {
+    //     const animationSequence = async () => {
+    //       // Initial fade in, scale, and rotation animation
+    //       await controls.start({
+    //         opacity: 1,
+    //         scale: 1.8,
+    //         rotate: 90, // Rotate 360 degrees (one full rotation)
+    //         transition: { duration: 1, ease: 'easeInOut' },
+    //       });
 
+    //       // Continuous rotation animation
+    //       await controls.start({
+    //         scale: 1.1,
+    //         rotate: 0, // Rotate back to 0 degrees
+    //         transition: { duration: 1,   ease: 'easeInOut' },
+    //       });
+    //     };
+
+    //     animationSequence();
+    //   }, [controls]);
+
+
+    // const [isVisible, setIsVisible] = useState(false);
+    // const { ref, inView } = useInView({
+    //     triggerOnce: true, // Trigger the animation only once
+    // });
+
+    // useEffect(() => {
+    //     if (inView) {
+    //         setIsVisible(true);
+    //     }
+    // }, [inView]);
+
+
+    const transition = {duration : 4, type: 'spring'}
 
     return (
         <>
             <div className="Problem">
-                <div className="StoryCarousels">
-                    <div className="singleQuotes">
-                        <div className="secStoryQoute">
-                            <h2>creating pixel-perfect Design</h2>
+
+                <div style={{ width: '70%' }}>
+                    <h1>Process & approach</h1>
+                    <div className="StoryCarousels">
+                        <div className="singleQuotes">
+                            <div className="secStoryQoute">
+                                <h2>Making sure your idea can work and
+                                    <br />
+                                    succeed in the real world.</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div className="singleQuotes">
-                        <div className="secStoryQoute">
-                            <h2>with a problem solving mindset</h2>
+                        <div className="singleQuotes">
+                            <div className="secStoryQoute">
+                                <h2>Checking if it's possible to bring your
+                                    <br /> idea to life without breaking the bank.</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div className="singleQuotes">
-                        <div className="secStoryQoute">
-                            <h2>Using Design Thinking and latest Design Standards</h2>
+                        <div className="singleQuotes">
+                            <div className="secStoryQoute">
+                                <h2>Creating something that's simple and
+                                    <br />
+                                    enjoyable for people to use.
+
+                                </h2>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
+                <div className='groupf-container'>
+      <img src={circle} alt="" />
+
+      <motion.img
+        id='blue'
+        className='groupf'
+        src={bluegroup}
+        alt=""
+        initial={{left: '-36%' , top :  '50%'}}
+        whileInView={{left: '-24% ' ,  top : '10%'}}
+        transition={transition}
+      />
+    </div>
             </div>
         </>
     )
