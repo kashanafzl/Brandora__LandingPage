@@ -2,7 +2,7 @@
 
     margin-top: 5rem;
     padding-left: 3rem;
-    padding-block: 4rem;
+    padding-top: 4rem;
     /* border: 2px solid red; */
     background-color: #07288B;
     color: #fff;
@@ -20,12 +20,12 @@
 }
 
 .groupf-container img {
-    height: 400px;
+    height: 500px;
 }
 
 
 #blue {
-    height: 200px;
+    height: 250px;
     position: absolute;
     right: -140px;
     top: 100px;

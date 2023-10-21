@@ -253,3 +253,12 @@
   html{
     overflow-x: hidden;
   }
+
+
+  @media (min-width:320px) and (max-width:641px) {
+
+    .overlay ul li a{
+      font-size: 50px;
+  
+    }
+  }

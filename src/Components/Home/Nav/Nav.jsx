@@ -14,18 +14,23 @@ function App() {
     <div>
 
       <div className="navbrandora">
+
         <div id="logoImg" className="container1">
           <img src={LogoImg} alt="" srcSet="" />
         </div>
 
+        <div>
 
         <div className={isOpen ? "button_container active" : "button_container"} onClick={toggleMenu} id="toggle">
           <span className="top"></span>
           {/* <span className="middle"></span> */}
           <span className="bottom"></span>
         </div>
+        </div>
 
-        <div className={isOpen ? "overlay open" : "overlay"} id="overlay">
+
+      <div>
+      <div className={isOpen ? "overlay open" : "overlay"} id="overlay">
           <nav className="overlay-menu">
             <ul>
               <li>
@@ -63,6 +68,8 @@ function App() {
             </ul>
           </nav>
         </div>
+      </div>
+       
       </div>
 
 

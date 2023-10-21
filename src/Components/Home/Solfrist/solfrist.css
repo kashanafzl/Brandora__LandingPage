@@ -39,13 +39,13 @@
 
     .solfrist {
  
-        padding: 0 0 90px 40px;
+        padding: 0 0 90px 20px;
     }
 
     .sol_fristheading>h2,
     .sol_secheading>h2,
     .sol_thiredheading>h2 {
-        font-size: 55px;
+        font-size: 50px;
         line-height: 5rem;
     }
 

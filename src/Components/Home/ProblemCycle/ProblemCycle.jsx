@@ -152,7 +152,7 @@ function ProblemCycle() {
     // }, [inView]);
 
 
-    const transition = { duration: 2, type: 'spring' }
+    const transition = { duration: 1.5}
 
     return (
         <>
@@ -195,8 +195,8 @@ function ProblemCycle() {
                         className='groupf'
                         src={bluegroup}
                         alt=""
-                        initial={{ left: '40%' }}
-                        whileInView={{ left: '-40% ', top: '20%' }}
+                        initial={{ left: '40%' , top : '50%' }}
+                        whileInView={{ left: '-60% ', top: '20%' }}
                         transition={transition}
                     />
                 </div>

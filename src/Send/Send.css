@@ -10,6 +10,18 @@ body {
 }
 
 
+.progress-bar {
+    position: fixed;
+    width: 80px;
+    left: 110px;
+    z-index: 20;
+    background-color: brown;
+    bottom: 20px;
+    height: 10px;
+    transform-origin: 0%;
+  }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 .sendlandingpage {

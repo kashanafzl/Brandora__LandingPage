@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './Pages/Home';
 import Send from './Send/Send.jsx'
+import Discuss from './Discuss/Discuss.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/discuss",
-    element: <Send/>,
+    element:  <Discuss/>,
   },
 
 ]);
